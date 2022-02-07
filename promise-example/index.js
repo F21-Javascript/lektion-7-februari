@@ -44,3 +44,25 @@ getBread.then((value) => {
         });
     });
 });
+
+
+
+function saveToLocalStorage() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            localStorage.setItem('greeting', 'Hello');
+            resolve();
+        }, 2000);
+    });
+}
+
+function readFromLocalStorage() {
+    setTimeout(() => {
+        const greeting = localStorage.getItem('greeting');
+        console.log(greeting);
+    }, 1000);
+}
+
+saveToLocalStorage().then(() => {
+    readFromLocalStorage();
+});

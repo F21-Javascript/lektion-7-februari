@@ -12,8 +12,12 @@ Promise docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/
 
 Promise tutorial: https://javascript.info/promise-basics
 
+Promise chaining: https://javascript.info/promise-chaining
+
 ## Videor
 
 Promise: https://www.youtube.com/watch?v=DHvZLI7Db8E
 
 ## Inspelningar
+
+https://funet-my.sharepoint.com/:f:/g/personal/christoffer_wallenberg_folkuniversitetet_se/EpoSQB7dnnxEkh9Iw_ShOOgBpcm2LuiOVzZXNKyWAxm2iA?e=hbgSVX
